@@ -1,6 +1,9 @@
 .PHONY: default build
 
-default: build
+default: build exec
 
 build:
-	npm run build
+	yarn builr
+
+exec:
+	yarn run serve
